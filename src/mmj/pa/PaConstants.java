@@ -936,7 +936,7 @@ public class PaConstants {
         + VERSION + " as of " + VERSION_DATE + ".\n"
         + "Visit https://github.com/digama0/mmj2/ or\n"
         + "http://code.google.com/p/metamath-mmj2/\n"
-        + "for support or bug reports.";
+        + "for support or bug reports. <geohot mod>";
 
     /**
      * PROOF_TEXT_FONT_FAMILY = Monospaced

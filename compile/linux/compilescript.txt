@@ -13,4 +13,4 @@ echo "Main-Class: mmj.util.BatchMMJ2" >>MANIFEST.MF
 cd src && javac `find . ../lib -name *.java` -d ../classes && \
 cd ../classes && \
 jar cfm ../mmj2.jar ../MANIFEST.MF \
-`find -name "*.class" | sed -e "s/^\.\///"`
+`find * | grep ".class" | sed -e "s/^\.\///"`
