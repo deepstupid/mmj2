@@ -106,7 +106,7 @@ public class CompoundUndoManager extends UndoManager implements
      */
     @Override
     public void undoableEditHappened(final UndoableEditEvent e) {
-        final boolean prog = document.isProgrammatic();
+        /*final boolean prog = document.isProgrammatic();
         final DefaultDocumentEvent edit = (DefaultDocumentEvent)e.getEdit();
         if (compoundEdit == null)
             // start a new compound edit
@@ -124,7 +124,7 @@ public class CompoundUndoManager extends UndoManager implements
             compoundEdit = startCompoundEdit(edit);
         }
         lastProgrammatic = prog;
-        updateCursorPosition();
+        updateCursorPosition();*/
     }
 
     private boolean isIncremental() {
