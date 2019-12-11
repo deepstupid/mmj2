@@ -2,3 +2,5 @@ classes/
 /bin
 mmj2.jar
 MANIFEST.MF
+metamath-exe/
+.*.swp
