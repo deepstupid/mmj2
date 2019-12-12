@@ -99,7 +99,7 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <dl>
 <dt>All Superinterfaces:</dt>
-<dd><a href="../../mmj/pa/BaseSetting.html" title="interface in mmj.pa">BaseSetting</a>&lt;T&gt;, <a href="../../mmj/pa/BaseSetting.JSONSerializable.html" title="interface in mmj.pa">BaseSetting.JSONSerializable</a>, org.json.JSONString, java.util.function.Predicate&lt;T&gt;, java.util.function.Supplier&lt;T&gt;</dd>
+<dd><a href="../../mmj/pa/BaseSetting.html" title="interface in mmj.pa">BaseSetting</a>&lt;T&gt;, <a href="../../mmj/pa/BaseSetting.JSONSerializable.html" title="interface in mmj.pa">BaseSetting.JSONSerializable</a>, JSONString, java.util.function.Predicate&lt;T&gt;, java.util.function.Supplier&lt;T&gt;</dd>
 </dl>
 <dl>
 <dt>All Known Implementing Classes:</dt>
@@ -112,7 +112,7 @@ var activeTableTab = "activeTableTab";
 <hr>
 <br>
 <pre>public static interface <span class="typeNameLabel">BaseSetting.JSONSetting&lt;T&gt;</span>
-extends <a href="../../mmj/pa/BaseSetting.html" title="interface in mmj.pa">BaseSetting</a>&lt;T&gt;, <a href="../../mmj/pa/BaseSetting.JSONSerializable.html" title="interface in mmj.pa">BaseSetting.JSONSerializable</a>, org.json.JSONString</pre>
+extends <a href="../../mmj/pa/BaseSetting.html" title="interface in mmj.pa">BaseSetting</a>&lt;T&gt;, <a href="../../mmj/pa/BaseSetting.JSONSerializable.html" title="interface in mmj.pa">BaseSetting.JSONSerializable</a>, JSONString</pre>
 </li>
 </ul>
 </div>
@@ -340,7 +340,7 @@ extends <a href="../../mmj/pa/BaseSetting.html" title="interface in mmj.pa">Base
 <li class="blockList">
 <h4>write</h4>
 <pre>default&nbsp;java.lang.Object&nbsp;write()
-                        throws org.json.JSONException</pre>
+                        throws JSONException</pre>
 <div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../mmj/pa/BaseSetting.JSONSerializable.html#write--">BaseSetting.JSONSerializable</a></code></span></div>
 <div class="block">Write the value of this setting into the session store.</div>
 <dl>
@@ -349,7 +349,7 @@ extends <a href="../../mmj/pa/BaseSetting.html" title="interface in mmj.pa">Base
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>A JSON value suitable for insertion</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code>org.json.JSONException</code></dd>
+<dd><code>JSONException</code></dd>
 </dl>
 </li>
 </ul>
@@ -362,7 +362,7 @@ extends <a href="../../mmj/pa/BaseSetting.html" title="interface in mmj.pa">Base
 <pre>default&nbsp;java.lang.String&nbsp;toJSONString()</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code>toJSONString</code>&nbsp;in interface&nbsp;<code>org.json.JSONString</code></dd>
+<dd><code>toJSONString</code>&nbsp;in interface&nbsp;<code>JSONString</code></dd>
 </dl>
 </li>
 </ul>
